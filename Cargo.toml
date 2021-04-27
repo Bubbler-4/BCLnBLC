@@ -1,22 +1,20 @@
 [package]
-name = "project"
+name = "BCLnBLC"
 version = "0.1.0"
 authors = ["Bubbler-4"]
 edition = "2018"
-description = "A template for a Rust-powered static-page Try Online interface"
-repository = "https://github.com/Bubbler-4/rust-tio-template"
+description = "Interpreter for BLC and BCL"
+repository = "https://github.com/Bubbler-4/BCLnBLC"
 license = "MIT"
-default-run = "mybin"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+default-run = "bcl_blc"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
-name = "mylib"
+name = "bcl_blc_lib"
 path = "src/lib.rs"
 
 [[bin]]
-name = "mybin"
+name = "bcl_blc"
 path = "src/main.rs"
 
 [dependencies]
