@@ -1,5 +1,5 @@
-extern crate mylib;
-use mylib::*;
+extern crate bcl_blc_lib;
+use bcl_blc_lib::*;
 
 fn main() {
     let data = "S (S (K S) (S (K (S (K S))) (S (K (S (K K))) (S (K (S (K S))) (S (K S) K))))) (K (S (K K)))";
